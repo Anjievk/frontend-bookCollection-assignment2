@@ -74,7 +74,7 @@ body {
     padding: 0 16px;
     display: grid;
     grid-template-columns: 260px repeat(auto-fill, minmax(220px, 1fr));
-    gap: 24px;
+    gap: 24px; /* use pixels, not % */
     align-items: start;
 }
 
@@ -197,6 +197,7 @@ body {
     }
     .info-container {
         height: 46px;
+        justify-content: center;
     }
     .book .book-image {
         height: 250px;

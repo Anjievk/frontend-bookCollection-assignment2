@@ -14,7 +14,7 @@ function App() {
             <main>
                 <div className='app-content'>
                     <div className='add-col'>
-                        <NewButton className='add' />
+                        <NewButton classname={add} />
                     </div>
                     {books.map((b) => (
                         <Book
